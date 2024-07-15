@@ -1,0 +1,53 @@
+# Logs and databases #
+######################
+*.log
+*.data
+*.redo
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Editor Files #
+################
+*~
+*.swp
+
+# IntelliJ specific files/directories #
+#######################################
+out
+.idea
+!.idea/runConfigurations
+*.ipr
+*.iws
+*.iml
+atlassian-ide-plugin.xml
+
+# Scala #
+#########
+.bsp
+.scala-build
+
+# Docusaurus #
+##############
+.docusaurus
+.cache-loader
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+package-lock.json
+
+# Visual Studio Code #
+######################
+.vscode
+.bloop
+.metals
+.ammonite
+
+# Newt #
+########
+.newt-cache
